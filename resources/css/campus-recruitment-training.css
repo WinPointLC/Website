@@ -1,0 +1,13 @@
+.hero-image{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/css-img/campus-recruitment-training.jpg");
+	background-position: bottom;
+}
+
+.section-contents{
+	height: 100%;
+}
+
+.campus-recruitment-training2-image-wrapper{
+	margin-left: 2%;
+	padding-top: 2%;
+}

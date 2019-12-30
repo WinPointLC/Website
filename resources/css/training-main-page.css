@@ -1,0 +1,85 @@
+.hero-image{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),url(../img/css-img/training-main-page.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/css-img/training-main-page.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.image-header{
+	color: #fff;
+}
+
+.section-contents{
+	background-color: #fff;
+	height: 100%;
+	padding-top: 30px;
+}
+
+a{
+	color: black;
+}
+
+.head-1{
+	margin-left: 15%;
+}
+
+.head-2{
+	margin-left: 19%;
+}
+
+.head-3 {
+	margin-left: 25%;
+}
+
+.individual-list a{
+	color: #3742fa;
+}
+
+.institute-list a{
+	color: #ffa502;
+}
+
+.corporate-list a{
+	color: #28ca6b;
+}
+
+.head-4{
+	margin-left: 25%;
+	font-size: 80%;
+}
+
+.training-main-title{
+	color: #3742fa;
+}
+
+.training-main-title::after{
+	border-bottom: 2px solid #3742fa;
+}
+
+.training-main-title2{
+	color: #ffa502;
+}
+
+.training-main-title2::after{
+ 	border-bottom: 2px solid #ffa502;
+}
+
+.training-main-title3{
+	color: #28ca6b;
+}
+
+.training-main-title3::after{
+		border-bottom: 2px solid #28ca6b;
+}
+
+.stud h6 {
+	list-style-type: none;
+}
+
+.head-2 a{
+	color: black;
+}
+
+.head-1 a{
+	color: black;
+}

@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Contact Us</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../favicons/favicon-16x16.png">
+	<link rel="manifest" href="../favicons/site.webmanifest">
+	<link rel="mask-icon" href="../favicons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="../favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-config" content="../favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(function(){
+				 $("#website-header").load("header.html");
+				 $("#website-footer").load("footer.html");
+		 });
+	</script>
+	<script src="freecontactformvalidation.js"></script>
+	<script>
+		required.add('Full_Name','NOT_EMPTY','Full Name');
+  	required.add('Email_Address','EMAIL','Email Address');
+  	required.add('Your_Message','NOT_EMPTY','Your Message');
+  	required.add('AntiSpam','NOT_EMPTY','Anti-Spam Question');
+	</script>
+	<script src="../js/common.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/animate.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/contact-us.css">
+  <script data-ad-client="ca-pub-9772508893814234" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body>
+	<div id="website-header">
+
+	</div>
+
+	<section class="hero-image">
+		<div class="heading-container">
+			<h1 class="animated zoomIn image-header" style="animation-delay: 0.8s">contact us</h1>
+		</div>
+		<div class="button-down">
+			<a href=".section-contents"><img src="../img/circle.png" alt="circle.png" class="img-scroll"></img></a>
+		</div>
+	</section>
+	<section class="section-contents">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="wrapper">
+						<div class="contact-form">
+
+							<form name="freecontactform" method="post" action="freecontactformprocess.php" onsubmit="return validate.check(this)">
+								<table width="275px" class="freecontactform">
+									<tr>
+										<td colspan="2">
+
+										</td>
+									</tr>
+									<tr>
+										<td valign="top">
+											<label for="Full_Name" class="required">Full Name<span class="required_star"> * </span></label>
+										</td>
+										<td valign="top">
+											<input type="text" name="Full_Name" id="Full_Name" maxlength="80" style="width:175px">
+										</td>
+									</tr>
+									<tr>
+										<td valign="top">
+											<label for="Email_Address" class="required">Email Address<span class="required_star"> * </span></label>
+										</td>
+										<td valign="top">
+											<input type="text" name="Email_Address" id="Email_Address" maxlength="100" style="width:175px">
+										</td>
+									</tr>
+									<tr>
+										<td valign="top">
+											<label for="Telephone_Number" class="not-required">Telephone Number</label>
+										</td>
+										<td valign="top">
+											<input type="text" name="Telephone_Number" id="Telephone_Number" maxlength="100" style="width:175px">
+										</td>
+									</tr>
+									<tr>
+										<td valign="top">
+											<label for="Your_Message" class="required">Your Message<span class="required_star"> * </span></label>
+										</td>
+										<td valign="top">
+											<textarea style="width:175px;height:160px" name="Your_Message" id="Your_Message" maxlength="2000"></textarea>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2" style="text-align:center">
+											<div class="antispammessage">
+												To help prevent automated spam, please answer this question
+												<br /><br />
+												<div class="antispamquestion">
+													<span class="required_star"> * </span>
+													Using only numbers, what is 10 plus 15? &nbsp;
+													<input type="text" name="AntiSpam" id="AntiSpam" maxlength="100" style="width:30px">
+												</div>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2" style="text-align:center">
+											<br /><br />
+											<input class="btn" type="submit" value=" Submit Form ">
+											<br /><br />
+											<br /><br />
+										</td>
+									</tr>
+								</table>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="wrapper2">
+						<div class="content-form">
+							<h6>Reach at US:</h6><br>
+							<div class="address">
+							  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d873.4512600471322!2d73.84357697919758!3d18.48935438873663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c11ff2fa21f1%3A0x91513ed998779205!2sWinPoint+Learning+Center!5e0!3m2!1sen!2sin!4v1547055699972"
+                width="275" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+							</div><br>
+							<div class="email">
+								<h6>Email:</h6>
+								<p>
+									<a class="email-link" href="mailto:mugdha.mulay@winpointsolutions.com?subject=Contact Us">mugdha.mulay@winpointsolutions.com</a>
+									<a class="email-link" href="mailto:makarand.parkhi@winpointsolutions.com?subject=Contact Us">makarand.parkhi@winpointsolutions.com</a>
+									<a class="email-link" href="mailto:anjali.parkhi@winpointsolutions.com?subject=Contact Us">anjali.parkhi@winpointsolutions.com</a>?
+								</p>
+							</div><br>
+							<div class="call">
+								<h6>Call:</h6>
+								<p><a href="tel:020-24221997">020-24221997</a>,</p>
+								<p><a href="tel:+91-985-028-8662">+91-985-028-8662</a>,</p>
+								<p><a href="tel:+91-955-250-1272">+91-955-250-1272</a>,</p>
+								<p><a href="tel:+91-955-250-1273">+91-955-250-1273</a>.</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+
+	<div id="website-footer">
+
+	</div>
+	<div class="top-button" id="back-to-top">
+   <a id="back2Top" title="Back to top" href="#"><i class="fas fa-angle-up"></i></a>
+  </div>
+	<script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+  <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+</body>
+
+</html>

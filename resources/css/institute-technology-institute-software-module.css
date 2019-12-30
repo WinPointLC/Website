@@ -1,0 +1,15 @@
+/* <../img/css-img src="Software_Module.jpg" alt=""> */
+.hero-image{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/css-img/institute-technology-institute-software-module.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/css-img/institute-technology-institute-software-module.jpg");
+	background-size: cover;
+	height: 100vh;
+}
+
+.software-skills-framework-wrapper{
+	margin-left: 25%;
+}
+
+.section-contents{
+	height: 100%;
+}

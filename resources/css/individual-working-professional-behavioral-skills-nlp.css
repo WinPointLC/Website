@@ -1,0 +1,18 @@
+.hero-image{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/css-img/individual-working-professional-behavioral-skills-nlp.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/css-img/individual-working-professional-behavioral-skills-nlp.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.communication-skills-development-framework, .behavioral-soft-skills-framework{
+	display: block;
+}
+
+.section-contents{
+	height: 100%;
+}
+
+.behavioral-soft-skills-framework-image-wrapper,.communication-skills-development-framework-image-wrapper{
+	padding-top: 3%;
+}

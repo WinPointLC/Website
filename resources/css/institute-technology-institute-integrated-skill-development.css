@@ -1,0 +1,15 @@
+.hero-image{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/css-img/institute-technology-institute-integrated-skill-development.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/css-img/institute-technology-institute-integrated-skill-development.jpg");
+	background-size: cover;
+	height: 100vh;
+}
+
+.integrated-skill-development-wrapper{
+	margin-left: 30%;
+	margin-bottom: 30px;
+}
+
+.section-contents{
+	height: 100%;
+}

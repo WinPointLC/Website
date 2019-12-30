@@ -1,0 +1,13 @@
+.hero-image{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/css-img/software-skills-spring.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/css-img/software-skills-spring.jpg");
+	background-repeat: no-repeat;
+}
+
+ol{
+	margin-left: 10px;
+}
+
+.section-contents{
+	height: 100%;
+}

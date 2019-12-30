@@ -1,0 +1,51 @@
+.hero-image{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/css-img/neuro-linguistic-programming.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/css-img/neuro-linguistic-programming.jpg");
+	background-size: cover;
+	height: 100vh;
+  background-position: top;
+}
+
+.section-contents{
+	height: 100%;
+}
+
+.carousel-indicators{
+	padding-bottom: 4%;
+}
+
+.col-sm-8{
+  padding-top: 35px;
+}
+
+h6{
+  padding-top: 15px;
+}
+
+.paragraph-right{
+  color:brown;
+}
+
+.col-sm-4{
+  padding-top: 35px;
+}
+
+.nlp-workshop-image-wrapper {
+  width: 100%;
+}
+
+.carousel-inner > .item > img {
+    min-width: 100%;
+}
+
+.carousel-inner {
+	min-height: 700px;;
+}
+
+.carousel{
+	min-height: 700px;
+}
+
+.section-contents{
+	margin-bottom: 5%;
+}

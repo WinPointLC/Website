@@ -1,0 +1,129 @@
+html{
+	overflow-x: hidden;
+	max-width: 100%;
+}
+
+.hero-image{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/css-img/business-communication-workplace.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/css-img/business-communication-workplace.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.image{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))),url(../img/css-img/testimonials-hero-image.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/css-img/testimonials-hero-image.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+}
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+
+blockquote{
+	color: #fff;
+	font-size: 90%;
+}
+
+.name{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+}
+
+.name div cite{
+	font-size: 90%;
+}
+
+.name blockquote{
+	font-size: 70%;
+}
+
+.container1 span{
+	display: block;
+}
+
+.text1{
+	padding-top: 40px;
+	color: #fff;
+	font-size: 150%;
+	letter-spacing: 8px;
+	position: relative;
+}
+
+.col-sm-3{
+	margin: 0;
+	padding: 0;
+}
+
+h6{
+	text-align: center;
+	margin: 25px auto;
+}
+
+.section-contents{
+	height: 300%;
+	margin: 0;
+}
+
+.col-sm-12{
+	height: 450px;
+}
+
+.carousel{
+	height:100%;
+}
+
+.container1{
+	height:10%;
+}
+
+.carousel-inner {
+  height: 90%;
+}
+
+.carousel-inner {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-item {
+  position: relative;
+  height: 100%;
+  display: none;
+  width: 100%;
+}
+
+blockquote {
+	 color: #fff;
+	 position: relative;
+	 display: inline-block;
+	 padding: 0 5px;
+	 margin: 0px auto;
+}
+
+blockquote p {
+	 margin-bottom: 5px;
+}
+
+blockquote:before,
+blockquote:after {
+	 font-size: 90%;
+	 color: #28B701;
+	 position: absolute;
+	 left: -30px;
+	 top: 5px;
+}
+
+cite {
+	 float: middle;
+	 color: white;
+	 font-size: 80%;
+	 margin: 0;
+	 padding: 0;
+}

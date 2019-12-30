@@ -1,0 +1,26 @@
+.hero-image{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/css-img/about-us.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/css-img/about-us.jpg");
+	background-repeat: no-repeat;
+}
+
+.container2{
+	float: left;
+	padding: 20px;
+}
+
+.container2:first-child{
+	padding-left: 0;
+}
+
+.team-text{
+	margin-top: 50px;
+}
+
+.section-contents{
+	height: 100%;
+}
+
+.section-ceo-director{
+	margin-bottom: 30px;
+}

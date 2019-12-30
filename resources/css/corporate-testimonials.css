@@ -1,0 +1,41 @@
+.hero-image{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/css-img/corporate-testimonails.jpg");
+	background-size: cover;
+	height: 100vh;
+  background-position: top;
+}
+
+.section-contents{
+	height: 100%;
+}
+
+.container-fluid.second{
+  padding-top: 2%;
+}
+
+p{
+	color: #fff;
+	text-align: justify;
+	font-style: italic;
+	text-align: center;
+	text-align: justify;
+}
+
+h6{
+	color: white;
+	/* text-align: justify; */
+	padding-left: 70px;
+  text-decoration: underline;
+}
+
+#c1{
+	background-color: #00BCD4;
+}
+
+#c2{
+	background-color: #673AB7;
+}
+
+#c3{
+	background-color: #F44336;
+}

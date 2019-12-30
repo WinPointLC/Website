@@ -1,0 +1,18 @@
+.hero-image{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../img/css-img/institute-management-behavioral-module.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/css-img/institute-management-behavioral-module.jpg");
+  background-position: top;
+}
+
+.behavioral-skills-wrapper1{
+  padding-top: 2%;
+}
+
+.behavioral-skills-wrapper2{
+  padding-top: 5%;
+	margin-left: 10%;
+}
+
+.section-contents{
+	height: 100%;
+}
